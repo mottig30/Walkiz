@@ -1,0 +1,66 @@
+
+
+body{
+    font-family:Calibri,sans-serif;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+#head-of-page{
+    font-family: Calibri, sans-serif;
+    width: 100%;
+    height: 60px;
+    background-color: var(--theme-color);
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#head-of-page li{
+    display: inline;
+    font-size: 16px;
+    color: white;
+}
+
+#user-name{
+    font-family:Calibri,sans-serif;
+    color: white;
+    font-size: 16px;
+    position: relative;
+    left: 450px;
+}
+
+#head-of-page ul{
+    width:100%;
+    min-width: 700px;
+}
+
+#logo{
+    height: 40px;
+}
+
+#head-of-page a{
+    text-decoration: none;
+    color: white;
+    padding-left: 25px;
+    padding-top: 5px;
+    transition: 1s;
+}
+
+#head-of-page a:hover{
+    color: var(--secondary-color);
+    cursor: pointer;
+}
+
+#head-of-page .material-icons{
+    position: relative;
+    top: 6px;
+}
+
+#head-of-page #logo{
+    position: relative;
+    top: 6px;
+    left:6px;
+}

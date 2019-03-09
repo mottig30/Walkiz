@@ -1,0 +1,7 @@
+
+/*page that holds all the css that used in all the pages*/
+
+@import "reset.css";/*reset all the css default properties*/
+@import "header.css";
+@import "footer.css";
+@import "vars.css";

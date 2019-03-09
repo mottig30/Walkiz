@@ -1,0 +1,78 @@
+@import "header&footer.css";
+
+body{
+    font-family: Calibri;
+    background-color: ghostwhite;
+    background-image: url("../img/gray-clipart-paw-print-4.png");
+    background-repeat: no-repeat;
+    background-size:25%;
+    background-position: bottom;
+    background-position: left;
+    background-position-y: 200px;
+}
+.sign-up{
+    text-align: center;
+    border-radius: 20px;
+    background-color: white;
+    width: 500px;
+    margin-left: 420px;
+    padding-bottom: 50px;
+    margin-bottom: 70px;
+}
+
+.sign-up div{
+    padding: 10px;
+    position: relative;
+    right: 90px;
+}
+
+#sign-up-headline{
+    padding-top: 28px;
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    color: var(--secondary-color);
+}
+
+.sign-up-labels {
+    color: #a6a6a6;
+    text-align: left;
+    padding-left: 128px;
+    display: block;
+}
+
+.sign-in-input{
+    height: 30px;
+    width: 400px;
+    position: relative;
+    left: 90px;
+    margin:auto;
+}
+
+.button-sign-up{
+    width: 405px;
+    height: 38px;
+    margin-top: 20px;
+    background-color:  var(--theme-color);
+    color: var(--form-second-color);
+    border-radius: 5px;
+    transition: 1s;
+}
+
+.button-sign-up:hover{
+    background-color: var(--secondary-color);
+    cursor: url("../img/dog-paw.png"),pointer;
+}
+
+.sign-in-link-d{
+    margin-top: 80px;
+    color:  var(--theme-color);
+    margin-left: 180px;
+    border-top: solid;
+    border-bottom-width: 3px;
+    font-size: small;
+}
+
+.sign-in-link-d a{
+    text-decoration: none;
+}

@@ -1,0 +1,230 @@
+@import "header&footer.css";
+@import "header.css";
+
+.pointer{
+    cursor: pointer;
+}
+
+#search{
+    background-image: url("../img/bac3.jpg");
+    backdrop-filter: blur();
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -webkit-background-size:100% ;
+    margin-bottom: 50px;
+    padding-bottom: 200px;
+    padding-top: 50px;
+}
+
+#search-form {
+    background-color: var(--form-color);
+    width: 658px;
+    height: 420px;
+    margin:auto;
+    position: relative;
+    bottom: 50px;
+    right: 50px;
+    color:var(--theme-color);
+    -webkit-filter: opacity(90%);
+    border-radius: 7px;
+}
+
+#search-headline{
+    width: 650px;
+   border-radius: 5px;
+    border-width: thin;
+    text-decoration: none;
+    text-align: center;
+    color: var(--form-color);
+    background-color:var(--theme-color);
+    padding: 5px;
+}
+
+#search-form label{
+    margin-left: 8px;
+    margin-right: 5px;
+    padding: 5px;
+}
+
+#search-form input{
+    cursor: pointer;
+}
+
+.days-datalist{
+    padding: 20px;
+}
+
+.days-datalist input{
+    width: 420px;
+    height:40px;
+    text-align: center;
+}
+
+.days-datalist input{
+    position: relative;
+    left: 10px;
+}
+
+.cities-datalist input{
+    width: 431px;
+    height:40px;
+    text-align: center;
+}
+
+.radio-hours{
+    padding: 20px;
+    padding-top: 10px;
+}
+
+.radio-hours input{
+    display: none;
+}
+
+.radio-hours-box{
+    display: inline-block;
+    padding-bottom: 5px;
+    padding-top: 15px;
+    margin-left: 5px;
+    margin-right: 2px;
+    height: 30px;
+    width: 159px;
+    border: 1px solid  var(--theme-color);
+    text-align: center;
+}
+
+.radio-hours-box:hover{
+    border: 1px solid var(--secondary-color);
+    cursor: pointer;
+}
+
+.radio-hours-box input:checked + label {
+    color: var(--secondary-color);
+}
+
+.radio-hours-box label:hover {
+    cursor: pointer;
+}
+.cities-datalist{
+    padding: 20px;
+    padding-top: 10px;
+}
+
+.radio-dogs {
+    padding: 20px;
+    padding-top: 10px;
+}
+
+.radio-dogs input{
+    display: none;
+}
+
+.radi-dogs-box img {
+    padding-right: 2px;
+}
+
+.radi-dogs-box input:checked+label {
+   color: var(--secondary-color);
+}
+
+.radi-dogs-box label{
+    cursor: pointer;
+    position: relative;
+}
+
+.radi-dogs-box img{
+    position: relative;
+    left: 7px;
+    top:3px;
+}
+
+.radi-dogs-box {
+    font-size: 13px;
+    display:inline-block;
+    padding: 12px;
+    padding-right: 2px;
+    margin-left: 42px;
+    width: 70px;
+    border: 1px solid  var(--theme-color);
+}
+
+.radi-dogs-box div{
+    position: relative;
+    left: 15px;
+    padding-top: 5px;
+}
+
+.radi-dogs-box   #med{
+    position: relative;
+    padding-top: 20px;
+    }
+#med-box{
+    height: 45px;
+    position: relative;
+    bottom: 4px;
+}
+
+.radi-dogs-box:hover{
+    border: 1px solid var(--secondary-color);
+    cursor: pointer;
+}
+
+
+#slogen-1{
+    font-family: Calibri, sans-serif;
+    font-size: 80px;
+    margin-left: 400px;
+    position: relative;
+    bottom: 40px;
+    right: 200px;
+    color: var(--secondary-color);
+    padding:10px;
+    mix-blend-mode: color;
+}
+#slogen-2{
+    font-family: Calibri, sans-serif;
+    margin-left: 400px;
+    font-size: 20px;
+    position: relative;
+    bottom: 80px;
+    left: 50px;
+    color: white;
+    mix-blend-mode: overlay;
+}
+
+#size{
+    padding-right: 50px;
+    position: relative;
+    bottom: 20px;
+    right: 1px;
+}
+
+div.search {
+    padding-top: 10px;
+    padding-left: 48px;
+    padding-right: 20px;
+}
+
+#search-botton{
+    margin: auto;
+    width: 600px;
+    height: 35px;
+    background-color: var(--theme-color);
+    font-family: Calibri;
+    font-size: 17px;
+    color: var(--form-color);
+    border-radius: 8px;
+    position: relative;
+    right: 24px;
+    bottom: 19px;
+    text-align: center;
+    transition: 1s;
+}
+
+#search-botton:hover{
+    background-color: var(--secondary-color);
+    cursor: url("../img/dog-paw.png"),pointer;
+}
+
+#search-botton a{
+    text-decoration: none;
+}

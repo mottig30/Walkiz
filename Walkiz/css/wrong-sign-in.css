@@ -1,0 +1,32 @@
+@import "header&footer.css";
+
+
+.text{
+    font-size: 40px;
+    position: relative;
+    text-align: center;
+    font-family: Calibri, sans-serif;
+    margin: auto;
+    padding-top: 30px;
+
+}
+
+#back{
+
+    width: 405px;
+    height: 38px;
+    margin-top: 20px;
+    background-color:  var(--theme-color);
+    color: var(--form-second-color);
+    border-radius: 5px;
+    transition: 1s;
+
+    position: relative;
+    left:470px;
+    top: 50px;
+}
+
+#back:hover{
+    background-color: var(--secondary-color);
+    cursor: url("../img/dog-paw.png"),pointer;
+}

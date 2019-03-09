@@ -1,0 +1,74 @@
+@import "header&footer.css";
+
+html{
+    font-family: Calibri, sans-serif;
+}
+
+body{
+    background-color: var(--form-second-color);
+    background-repeat: no-repeat;
+    background-position-y: 200px ;
+    background-position-x: -80px;
+}
+
+#walker-name{
+    padding-top: 50px;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 36px;
+    opacity: 0.5;
+}
+
+.id-img {
+    width: 230px;
+    height: 221px;
+    border-radius: 200px;
+    margin: 0px;
+    position: relative;
+    left: 100px;
+    top: 65px ;
+}
+
+.walker-profile-button{
+    background-color: #38cb8e;
+    width:  300px;
+    height: 55px;
+    text-align: center;
+    margin-top: 80px;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    font-family: Calibri, sans-serif;
+    padding: 0px;
+    cursor: pointer;
+}
+
+.wrapper{
+    text-align: center;
+    margin-right: 470px;
+    margin-left:470px;
+    padding-bottom: 50px;
+    background-color: white;
+    border-radius:  15px;
+    margin-bottom: 200px;
+    height: 290px;
+    position: relative;
+    bottom: 190px;
+}
+
+.walker-profile-button h1 i{
+    position: relative;
+    top: 5px;
+    right: 5px;
+    color:white;
+}
+
+#profile-update{
+    position: relative;
+    bottom: 90px;
+}
+
+#schedule-update{
+    position: relative;
+    bottom: 40px;
+}

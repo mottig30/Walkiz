@@ -1,0 +1,200 @@
+
+@import "header&footer.css";
+body{
+    font-family: Arial,sans-serif;
+    background-color: ghostwhite;
+    background-repeat: no-repeat;
+    background-position-y: 300px ;
+}
+
+.become-a-walker-form{
+    text-align: center;
+    border-radius: 20px;
+    background-color: white;
+    width: 500px;
+    margin-left: 420px;
+    padding-bottom: 50px;
+    margin-bottom: 70px;
+}
+
+.become-a-walker-form h1{
+    padding-top: 28px;
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    color: var(--secondary-color);
+}
+
+.number-of-dogs input{
+    display: none;
+}
+
+.number-of-dogs div input:checked +label{
+    color: var(--secondary-color);
+}
+
+.number-of-dogs div :hover{
+    color: black;
+    cursor: pointer;
+}
+
+.number-of-dogs div{
+    display: inline-block;
+    position: relative;
+    right: 28px;
+}
+
+.number-of-dogs{
+    position: relative;
+    left: 15px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.number-of-dogs label{
+    color:  var(--theme-color);
+    padding: 20px;
+    height: 20px;
+    width: 40px;
+}
+
+.walker-register-block{
+    padding: 10px;
+    position: relative;
+    right: 90px;
+}
+
+.walker-register-labels{
+    color:  var(--theme-color);
+    text-align: left;
+    padding-left: 128px;
+    display: block;
+}
+
+.walker-register-inputs{
+    height: 30px;
+    width: 400px;
+    position: relative;
+    left: 90px;
+    margin:auto;
+}
+
+.dog-size-div {
+    width: 405px;
+    position: relative;
+    left: 46px;
+    border: solid var(--theme-color) 1px;
+    cursor: pointer;
+}
+
+#size-label{
+    position: relative;
+    right: 80px;
+    margin-top: 10px;
+}
+
+.dog-size-div input{
+    display: none;
+}
+
+.dog-size-box input:checked+label {
+    color: var(--secondary-color);
+}
+
+.dog-size-box:hover{
+    cursor: pointer;
+    var(--secondary-color:)
+}
+
+.dog-size-box label{
+    cursor: pointer;
+}
+
+.dog-size-box{
+    display: inline-block;
+    font-size:15px ;
+}
+
+.dog-size-div label{
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.text-area-div{
+    margin-top: 20px;
+}
+
+.text-area-div label{
+    position: relative;
+    right: 82px;
+
+}
+#picture{
+    display: none;
+}
+#profile-picture{
+    color: darkgrey;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+#profile-picture input{
+   position: relative;
+    left: 40px;
+    top: 10px;
+}
+
+#profile-picture i{
+    font-size:35px;
+    position: relative;
+    right: 10px;
+    top: 7px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+#profile-picture label{
+    cursor: pointer;
+}
+
+#profile-picture input:checked+label{
+    color:  var(--secondary-color);
+}
+
+#sign-in-link-d{
+    margin-top: 80px;
+    color: var(--theme-color);
+    margin-left: 180px;
+    border-top: solid;
+    border-bottom-width: 3px;
+    font-size: small;
+    position: relative;
+    right: 90px;
+}
+
+#sign-in-link-d a{
+
+    text-decoration: none;
+
+}
+.select{
+    height: auto;
+    font-family: Calibri, sans-serif;
+    color: var(--theme-color);
+}
+
+.button-sign-up{
+    width: 405px;
+    height: 38px;
+    margin-top: 20px;
+    background-color:  var(--theme-color);
+    color: ghostwhite;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+.button-sign-up:hover{
+    background-color: var(--secondary-color);
+    cursor: url("../img/dog-paw.png"),pointer;
+}

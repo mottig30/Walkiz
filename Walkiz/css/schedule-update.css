@@ -1,0 +1,116 @@
+@import "header&footer.css";
+
+body{
+    font-family: Calibri, sans-serif;
+    background-color: var(--form-color);
+    background-image: url("../img/calendar-icon-200x200.png");
+    background-repeat: no-repeat;
+    background-position-x: 450px;
+    background-position-y:100px;
+    background-size: 50px;
+    background-color: ghostwhite;
+}
+
+#schedule-headline{
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    width: 500px;
+    text-align: center;
+    font-size: 45px;
+    color: #32e2b2;
+}
+
+.days{
+    width: 140px;
+    text-align: center;
+    position: relative;
+    float: left;
+    margin-left: 30px;
+    margin-top: 30px;
+    background-color: var(--theme-color);
+    padding-bottom: 20px;
+    padding-top: 20px;
+    box-shadow: 4px 4px 4px #c6c6c6;
+    border-radius: 5px;
+    position: relative;
+    left: 60px;
+}
+
+.days label:hover{
+    color:var(--secondary-color);
+}
+
+.days label {
+    color: white;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.days-labels{
+    border-bottom: solid var(--secondary-color) 1px  ;
+}
+
+.hours label{
+    color: white;
+    transition: 1s;
+}
+
+.hours{
+    padding-top: 10px;
+}
+
+.hours li{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+input[type="checkbox"]{
+    display: none;
+}
+
+input[type="checkbox"]:checked+label{
+    color: var(--secondary-color);
+}
+
+@keyframes trans {
+    from{transform: translateY(-8px);}
+    to{transform:  translateY(3px);}
+}
+
+.hours{
+    display: none;
+    animation-name: trans;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.arrow{
+    color: var(--secondary-color);
+    cursor: pointer;
+    position: relative;
+    left: 20px;
+    display: none;
+}
+
+#button-update{
+    width: 405px;
+    height: 50px;
+    font-size: 26px;
+    background-color:  var(--theme-color);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+#button-update{
+    position: absolute;
+    right: 480px;
+    top: 380px;
+}
+
+#button-update:hover{
+    color: var(--secondary-color);
+    cursor: pointer;
+}

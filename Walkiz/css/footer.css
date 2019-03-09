@@ -1,0 +1,53 @@
+#hp-d{
+    background-color: var(--form-color);
+}
+
+.block1{ /*about us section*/
+    width: 45%;
+    display: inline-block;
+    color: var(--theme-color);
+}
+
+.footer-info{
+    margin-top: 300px;
+    text-align: center;
+    padding-top: 100px;
+
+}
+
+.block2{ /*contact section*/
+    width: 45%;
+    display: inline-block;
+    border-left: solid;
+    padding-bottom: 40px;
+    color: var(--theme-color);
+}
+
+#phone\ icon{
+    position: relative;
+    top: 9px;
+}
+
+#contact-head{
+    font-size: 26px;
+    padding-bottom: 10px;
+}
+
+#about\ us{
+    position: relative;
+    bottom: 22px;
+    font-size: 26px;
+    padding-bottom: 10px;
+}
+
+#about\ us p{
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+#rights{
+    background-color: black;
+    font-size: xx-small;
+    color: whitesmoke;
+    text-align: center;
+}
