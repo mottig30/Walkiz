@@ -4,7 +4,7 @@ var arrow=document.getElementsByClassName("arrow"); //arrow sign to close bar
 var array2=document.getElementsByClassName("hours");//array that hold all hours bar id
 var array1=document.getElementsByClassName("days-input");//array that hold all days id
 
-/*all the events clicks*  /
+/*all the events clicks   *  /
 
 array1[0].addEventListener('click', function(){openBar(0)});
 arrow[0].addEventListener('click', function(){closeBar(0)});
