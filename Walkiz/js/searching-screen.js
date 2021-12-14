@@ -1,4 +1,4 @@
-(function () {// anonymous fun
+(function () {// anonymous fun test
 
     var loading = document.getElementById("animation");//get the animation element
     var load = 0;
