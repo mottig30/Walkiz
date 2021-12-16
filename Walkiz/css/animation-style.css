@@ -1,4 +1,4 @@
-@import "vars.css";
+ @import "vars.css"; 
 
 body{
     background-color: #32cd9d;
@@ -29,7 +29,7 @@ body{
 .loading1, .loading2{
     position: absolute;
     border: 5px solid transparent;
-    border-radius: 50%;
+    border-r adius: 50%;
 }
 
 .loading1{
